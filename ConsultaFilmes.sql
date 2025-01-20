@@ -48,7 +48,7 @@ LEFT JOIN Generos g ON f.Id = g.Id
 SELECT f.Nome AS NomeFilme, g.Genero AS Genero
 FROM Filmes f
 LEFT JOIN Generos g ON f.Id = g.Id
-WHERE g.Genero = 'Mistério';
+WHERE g.Genero = 'MistÃ©rio';
 
 -- 12 --
 SELECT f.Nome AS NomeFilme, f.Ano, f.Duracao, a.PrimeiroNome, a.UltimoNome, ef.Papel, g.Genero
